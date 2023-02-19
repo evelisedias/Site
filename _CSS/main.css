@@ -1,0 +1,64 @@
+:root{
+    --ciano: #008b8b;
+    --preta: #141414;
+    --branco: rgb(255,255,255)
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:  var(--branco);
+    font-family: 'Times New Roman', Times, serif;
+   
+     
+ }
+ 
+ header .container{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ header .logo{
+     margin-left: 10px;
+     color: var(--Ciano);
+     font-family: 'Arial black';
+     font-size: 20px;
+     padding: 20px;
+ }
+ 
+ header nav a{
+     text-decoration: none;
+     color: #141414;
+     margin-right: 10px;
+ }
+ 
+ header nav a:hover{
+     color: var(--ciano);
+ }
+ 
+
+.item{
+    background:  url('/Projeto/_img/sala.jpg');
+    
+    height: 600px;
+   
+
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+  
+    
+ 
